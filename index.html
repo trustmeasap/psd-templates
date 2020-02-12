@@ -40,85 +40,79 @@
 
 
   <header>
-      <div class="header_logo">
-          <img src="/img/Logo.png" alt="#">
-      </div>
-      <div class="nav_bar">
-          <nav class="nav_menu">
-              <a href="#">Features</a>
-              <a href="#">About</a>
-              <a href="#">Pricing</a>
-              <a href="#">Rewiews</a>
-              <a href="#">Contacts</a>
-          </nav>
+      <div class="container">
+          <div class="row">
+              <div class="header_logo col-lg-2 col-xl-2">
+                  <img src="/img/Logo.png" alt="#">
+              </div>
+              <div class="nav_bar col-lg-5 col-xl-6">
+                  <nav class="nav_menu">
+                      <a href="#">Features</a>
+                      <a href="#">About</a>
+                      <a href="#">Pricing</a>
+                      <a href="#">Rewiews</a>
+                      <a href="#">Contacts</a>
+                  </nav>
+              </div>
+          </div>
       </div>
   </header>
 
-  <section class="main">
-    <div class="main_header">
-        <a href="#"><img src="/img/main_logo.png" alt="#"></a>
-        <p class="main_text">MODERN AXURE TEMPLATE <br> FOR BEAUTIFUL PROTOTYPES</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br>
-        euismod bibendum laoreet. Proin gravida dolor sit amet lacus <br>
-        accumsan et viverra justo commodo.</p>
-        <button type="button" class="btn btn-outline-light">Download</button>
+  <section class="container-fluid">
+
+    <div class="row main_disp align-items-center">
+        <div class="col-lg-6 col-md-6">
+            <a href="#"><img src="img/main_logo.png" alt="#"></a>
+            <h2>MODERN AXURE TEMPLATE
+            FOR BEAUTIFUL PROTOTYPES</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+            accumsan et viverra justo commodo.</p>
+            <button type="submit" class="btn">Download</button>
+        </div>
+        <div class="main_form col-lg-4 col-md-4">
+            <form>
+                <h2>Try Your FREE Trial Today</h2>
+                <div class="form-group">
+                    <input type="text" class="form-control no-border" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control no-border" placeholder="Email">
+                </div>
+                <div class="form-group"> 
+                    <input type="password" class="form-control no-border" placeholder="Password">
+                </div>
+                <button type="submit" class="btn_form btn-primary">Submit</button>
+            </form>
+        </div>
     </div>
-    <div class="main_form">
-        <h2>Try Your <span class="color_header">free</span> Trial Today</h2>
-        <form>
-            <div class="form-group">
-                <label for="exampleInputName"></label>
-                <input type="text" class="form-control no-border" placeholder="Name">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1"></label>
-                <input type="email" class="form-control no-border" aria-describedby="emailHelp"
-                    placeholder="Enter email">
-                                                                        
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1"></label>
-                <input type="password" class="form-control no-border" placeholder="Password">
-            </div>
-            <button type="submit" class="btn btn-primary">Get Started</button>
-        </form>
-    </div>
 
   </section>
-  <section class="social_media">
-      <div class="main_social">
-        <h2 class="soc_med_header">Social Media</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-            Aenean euismod bibendum laoreet.</p>
+
+  <div class="container tabs">
+      <div class="row align-items-center">
+          <div class="tabs_main col-sm-2">
+            <button type="submit" class="btn btn-primary btn_first">TAB 1</button>
+            <button type="submit" class="btn btn-primary btn_second">TAB 2</button>
+            <button type="submit" class="btn btn-primary btn_third">TAB 3</button>
+          </div>
+          <div class="tabs_text col-sm-6">
+              <div class="container">
+                  <h2>Tabs with soft transitioning effect.</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                      bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                      justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                      penatibus et magnis dis parturient montes. <br>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                      bibendum laoreet.</p>
+                  <button type="submit" class="btn btn-primary">Download</button>
+              </div>
+          </div>
+          <div class="tabs_img col-sm-4">
+              <img src="img/tab_image_right_u255.png" alt="#">
+          </div>
       </div>
-    <ul class="social_icon">
-        <a href="#"><i class="fab fa-facebook-f fa-3x"></i></a>
-        <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
-        <a href="#"><i class="fab fa-google-plus-g fa-3x"></i></a>
-        <a href="#"><i class="fab fa-pinterest fa-3x"></i></a>
-        <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
-        <a href="#"><i class="fas fa-wave-square fa-3x"></i></a>
-        <a href="#"><i class="fas fa-wifi fa-3x"></i></a>
-    </ul>
-    <div class="bot_line"></div>
-    
-  </section>
-
-  <section class="tab_list">
-      <div class="main_tab">
-        <button type="button" class="btn_first btn-dark">Tab 1</button>
-        <button type="button" class="btn_second btn-dark">Tab 2</button>
-        <button type="button" class="btn_third btn-dark">Tab 3</button>
-      </<button>
-      <div class="tab_text">
-
-      </div>
-      <div class="tab_img">
-
-      </div>
-  </section>
-
-    
+  </div>
 
 </body>
 
